@@ -1,0 +1,21 @@
+package Operator;
+
+public class Arithmetic {
+
+	public static void main(String[] args) {
+		float Number1, Number2;
+		Number1 = 56;
+		Number2 = 34;
+     float Add = Number1+Number2;
+   System.out.println(Number1+Number2); 
+    float Sub = Number1-Number2;
+    System.out.println(Number1-Number2);
+    float Mul = Number1*Number2;
+    System.out.println(Number1*Number2);
+    float Div = Number1/Number2;
+    System.out.println(Number1/Number2);
+    float Mod = Number1%Number2;
+    System.out.println(Number1%Number2);
+	}
+
+}
